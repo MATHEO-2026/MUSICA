@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fontes/Roboto-VariableFont_wdth\,wght.ttf');
+} 
+img{
+  width: 10rem;
+  border-radius: 0.5rem;
+}
+body {
+                 background-color: black;
+                background-image: 
+                linear-gradient(to top, black, transparent), 
+                url('../Imagens/logobeaduarte.jpg');
+                background-repeat: no-repeat;
+                background-position: center top;
+                background-attachment: scroll;
+                background-size: 100% 42.5rem;
+                min-height: 150%;
+                color: whitesmoke;
+}
+.titulo{
+  margin-top: 25rem;
+  margin-left: 3rem;
+  margin-bottom: 5rem;
+  font-size: 5rem;
+  font-family: Roboto
+}
+.subtitulo{
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-family: Roboto
+}
+
+a{
+  text-decoration: none;
+}
+/*Parte das Músicas populares*/
+
+.populares{
+    color: white;
+    align-items: center;
+    font-family: Roboto;
+      margin-left: 0.5rem;
+  margin-bottom: 2rem;
+}
+.populares ul{
+  margin-bottom: 2rem;
+  list-style: none;
+  display: flex;
+}
+.populares li{
+  margin-right: 2rem;
+}
+.populares li h1{
+  font-size: 2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+}
+.populares p{
+  margin-top: 0.5;
+}
+
+/*Parte da discografia */
+.discografia img{
+   width: 15rem;
+   border-radius: 0.5rem;
+}
+.discografia{
+  display: flex;
+  color: white;
+  align-items: flex-start;
+  font-family: Roboto;
+  
+}
+.discografia li{
+  text-align: center;
+}
+.discografia ul{
+  list-style: none;
+  gap: 3rem;
+  align-items: flex-start;
+}
+.discografia h1{
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+.discografia li h1{
+  font-size: 1.5rem;
+    width: 15rem;
+    overflow-wrap: break-word;
+}
+.discografia ul{
+  display: block;
+}
+.discografia ul:hover{
+  transform: translateY(-0.50rem);
+box-shadow: 0 3rem 100 rem rgba(0, 0, 0, 1);
+}

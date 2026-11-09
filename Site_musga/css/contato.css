@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'AngelicWar';
+    src: url(KiwiSoda.ttf);
+}
+@font-face {
+    font-family: 'BASE';
+    src: url('../fontes/AlfaSlabOne-Regular.ttf')
+}
+body{
+
+    background-image: url('../Imagens/estrelas.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.linha{
+
+    display: grid;
+    align-items: center;
+    background-color: rgb(34, 30, 30);
+    border-radius: 5rem;
+   padding: 1.5rem 1.5rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   color: white;
+   font-family: BASE;
+
+}
+.linha h4{
+
+    justify-self: center;
+    font-family: AngelicWar;
+    font-size: 2rem;
+
+}
+.topo{
+
+    grid-template-columns: 1fr 2fr;
+
+}
+.topo .info{
+
+    justify-self: center;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+.topo .img{
+
+    justify-self: start;
+    margin-left: 1rem;
+
+}
+.meio{
+
+    grid-template-columns: 2fr 1fr;
+
+}
+.meio .info{
+
+    justify-self: center;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+.meio .img{
+
+    justify-self: end;
+    margin-right: 1rem;
+
+}
+.baixo{
+
+    grid-template-columns: 1fr 2fr;
+
+}
+.baixo .info{
+
+    justify-self: center;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+
+
+}
+.baixo .img{
+
+    justify-self: start;
+    margin-left: 1rem;
+
+}
+.img img{
+
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50rem;
+
+}
+.linha a{
+
+    text-decoration: none;
+    color: white;
+
+}
+.linha a:hover{
+
+    text-decoration: underline;
+    color: rgb(89, 89, 128);
+
+}

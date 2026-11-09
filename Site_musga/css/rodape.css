@@ -1,0 +1,22 @@
+.rodape{
+    background-color: rgb(24, 24, 24);
+    color:rgb(255, 255, 255);
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+.rodape li{
+    text-align: center;
+    font-size: 1rem;
+    font-family: Roboto;
+}
+.rodape ul{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    gap: 5%;
+}
+.copyright{
+        color:rgb(180, 180, 180);
+        text-align: center;
+        font-size: 0.8rem;
+}

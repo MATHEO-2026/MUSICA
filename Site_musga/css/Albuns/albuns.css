@@ -1,0 +1,68 @@
+@font-face {
+        font-family: 'AngelicWar';
+        src: url('../fontes/KiwiSoda.ttf');
+}
+body{
+    background-image: linear-gradient(to top, black, transparent),url("../Imagens/animaisdefone.jpg");;
+
+                background-repeat: no-repeat;
+                background-position: top center;
+                background-attachment: scroll;
+                background-size: contain;
+                min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+main{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+.quadrado{
+            display: flex;
+            background-color: rgb(24, 24, 24);
+            width: 42rem;
+            height: 15rem;
+            border: 0.05rem solid rgb(70, 70, 70);
+            border-radius: 1rem;
+            margin-bottom: 2.5%;
+
+}
+.quadrado h1{
+    font-size: 2.4rem;
+    margin: 0%;
+}
+.quadrado p{
+    margin: 0%;
+    font-size: 1.2rem;
+}
+.quadrado:hover{   
+        transition: 0.3s;
+        background-color: rgb(0, 0, 0);
+        border: white 2px solid;
+
+}
+.quadrado ul{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.texto{
+    margin-left: 4rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.image{
+    width: 13rem;
+    border-radius: 1rem;
+}
+.titulo{
+    text-align: center;
+    font-family: 'AngelicWar';
+    font-size: 6rem;
+}

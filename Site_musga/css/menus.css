@@ -1,0 +1,39 @@
+
+@font-face {
+        font-family: 'AngelicWar';
+        src: url('../fontes/KiwiSoda.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fontes/Roboto-VariableFont_wdth\,wght.ttf');
+}
+.menu{
+    background-color: rgb(24, 24, 24);
+    color:white;
+    padding: 0.7rem 0;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+}
+.menu h1{
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    margin-right: 5vh;
+    margin-left: 5vh;
+    font-family: 'AngelicWar'; 
+}
+.menu ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+.menu ul{
+    display:flex;
+    list-style: none;
+    gap: 10%;
+}
+.menu a:hover{
+    transition: 0.2s;
+    color: rgb(124, 124, 124); 
+}
